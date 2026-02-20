@@ -1,0 +1,131 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Layout */
+header {
+  background-color: #111;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  color: #00bcd4;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: white;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+/* Typography */
+h2 {
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* Image */
+img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Lists */
+ul {
+  padding-left: 1.2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Articles */
+article {
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+/* Form */
+form {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  margin-top: 0.4rem;
+  padding: 0.6rem;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 1.5rem;
+  padding: 0.7rem;
+  background-color: #111;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+footer a {
+  color: #00bcd4;
+  text-decoration: none;
+}
